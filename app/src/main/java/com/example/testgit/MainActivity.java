@@ -15,4 +15,10 @@ public class MainActivity extends AppCompatActivity {
         Log.d("test1","test1");
         Log.d("test1","test1");
     }
+    
+     @Override
+    protected void onStart() {
+        super.onStart();
+    }
+    
 }
